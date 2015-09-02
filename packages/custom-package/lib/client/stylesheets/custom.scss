@@ -1,0 +1,175 @@
+.hero .hero-inner {
+	background: none;
+	min-height: 100px;
+}
+
+
+.vote-actions {
+	text-align: left;
+}
+
+
+.upvote-link {
+	margin-right: 20px;
+}
+
+.user_menu {
+	display: block;
+}
+
+.avatar-small {
+  .avatar-initials{
+  	font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+  }
+}
+
+.avatar-medium {
+  .avatar-initials{
+    font-size: 12px;
+  }
+}
+
+.avatar-large {
+  .avatar-initials{
+    font-size: 24px;
+  }
+}
+
+.post-avatars {
+	position: relative;
+	margin: 0 auto;
+	display: inline-block;
+	display: flex;
+	top: -18px;
+	left: -28px;
+	.author-avatar {
+		display: block;
+	}
+	.post-commenters {
+		display: inline-block;
+		border-left: 1px solid black(0.2);
+		padding-left: 5px;
+	}
+	.avatar-link {
+		display: inline-block;
+		margin-right: 6px;
+		&:last-child {
+			margin-right: 10px;
+		}
+	}
+	.avatar {
+		display: inline-block;
+		height: 60px;
+		width: 60px;
+		vertical-align: middle;
+	}
+}
+
+
+
+
+.fa-share-square-o {
+	color: #aaa;
+	opacity: .8;
+}
+
+
+.post {
+	min-height: 100px;
+
+}
+
+.post-share {
+	display: block;
+}
+
+.post-avatars .post-commenters {
+	display: none;
+}
+
+.points {
+	text-align: center;
+}
+
+.vote-actions {
+	margin-right: 10px;
+}
+
+.upvote {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+.custom_flag_post {
+	margin-top: 5px;
+	text-align: center;
+}
+
+header {
+	background-color: #4f81bd;
+}
+
+@media(max-width:505px) {
+	.fa-share-square-o {
+		margin-right: 0px;
+		line-height: 40px;
+		margin-top: 12px;
+	}
+}
+
+.flag {
+	font-size: 80%;
+}
+
+.comment-actions {
+	.upvote {
+		border: none;
+		padding: none;
+	}
+	.fa-chevron-up {
+		padding-right: 10px;
+	}
+}
+
+.logo-image {
+	background-color: white;
+	text-align: center;
+	img {
+		margin: 0 auto;
+	}
+}
+
+.support_us {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: -20px;
+	text-align: center;
+	border: 1px solid white;
+	width: 200px;
+	background-color: #4F81BD;
+}
+
+/*.post.sticky {
+	background-color: #4F81BD;
+	background: url(http://www.joomlaworks.net/images/demos/galleries/abstract/7.jpg);
+	color: white;
+	.vote-actions, .post-author, .points, .unit, .post-time, .comments-link, .post-avatars, .fa-share-square-o, .post-discuss {
+		display: none;
+	}
+	.post-title {
+		color: white;
+		text-align: center;
+	}
+
+	.post-title:hover a{
+		color: white;
+	}
+
+	.post-heading {
+		text-align: center;
+	}
+
+}*/

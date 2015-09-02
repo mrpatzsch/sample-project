@@ -1,0 +1,17 @@
+<template name="custom_post_avatars">
+  <div class="post-avatars {{moduleClass}}" aria-hidden="true" aria-live="off">
+    <a href="{{getDisplayName userId}}" title="{{getDisplayName userId}}" class="avatar-link avatar-small author-avatar" target="_blank">
+      {{> avatar userId=userId shape="circle"}}
+      <!-- {{getDisplayName userId}} -->
+    </a>
+    <!-- {{#if commenters}}
+      <div class="post-commenters">
+      {{#each commenters}}
+        <a href="{{getProfileUrl this}}" title="{{getDisplayName this}}" class="avatar-link avatar-small commenter-avatar">
+          {{> avatar userId=this shape="circle"}}
+        </a>
+      {{/each}}
+      </div>
+      {{/if}} -->
+  </div>
+</template>
