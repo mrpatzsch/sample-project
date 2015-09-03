@@ -17,55 +17,7 @@
 	display: block;
 }
 
-.avatar-small {
-  .avatar-initials{
-  	font-size: 18px;
-    line-height: 60px;
-    text-align: center;
-  }
-}
 
-.avatar-medium {
-  .avatar-initials{
-    font-size: 12px;
-  }
-}
-
-.avatar-large {
-  .avatar-initials{
-    font-size: 24px;
-  }
-}
-
-.post-avatars {
-	position: relative;
-	margin: 0 auto;
-	display: inline-block;
-	display: flex;
-	top: -18px;
-	left: -28px;
-	.author-avatar {
-		display: block;
-	}
-	.post-commenters {
-		display: inline-block;
-		border-left: 1px solid black(0.2);
-		padding-left: 5px;
-	}
-	.avatar-link {
-		display: inline-block;
-		margin-right: 6px;
-		&:last-child {
-			margin-right: 10px;
-		}
-	}
-	.avatar {
-		display: inline-block;
-		height: 60px;
-		width: 60px;
-		vertical-align: middle;
-	}
-}
 
 
 

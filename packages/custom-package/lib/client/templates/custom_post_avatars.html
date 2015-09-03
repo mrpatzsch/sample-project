@@ -4,7 +4,7 @@
       {{> avatar userId=userId shape="circle"}}
       <!-- {{getDisplayName userId}} -->
     </a>
-    <!-- {{#if commenters}}
+    {{#if commenters}}
       <div class="post-commenters">
       {{#each commenters}}
         <a href="{{getProfileUrl this}}" title="{{getDisplayName this}}" class="avatar-link avatar-small commenter-avatar">
@@ -12,6 +12,6 @@
         </a>
       {{/each}}
       </div>
-      {{/if}} -->
+      {{/if}}
   </div>
 </template>
